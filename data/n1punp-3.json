@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "n1punp",
+  "risk": "3",
+  "title": "V3Oracle will cause reverts in blackswan event where users (and liquidators) cannot modify the positions, which may lead to underwater positions (due to TWAP not being able to catch up)",
+  "issueId": 3,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/3"
+}
