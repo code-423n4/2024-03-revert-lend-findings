@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "t4sk",
+  "risk": "2",
+  "title": "Missing check on jumpMultiplierPerYearX96 can lead to lower interest rate above the kink",
+  "issueId": 4,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/4"
+}
