@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "AerialRaider",
+  "risk": "2",
+  "title": "Potential for a division by zero in _requireMaxDifference function in the V3Oracle contract",
+  "issueId": 18,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/18"
+}
