@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "tpiliposian",
+  "risk": "2",
+  "title": "Missing caller validation for leveragetransformer's functions",
+  "issueId": 17,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/17"
+}
