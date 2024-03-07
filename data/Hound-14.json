@@ -1,0 +1,11 @@
+{
+  "contest": 342,
+  "handle": "Hound",
+  "crew": [
+    "DadeKuma"
+  ],
+  "risk": "2",
+  "title": "Some `ERC20` can revert on a zero value `transfer`",
+  "issueId": 14,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/14"
+}
