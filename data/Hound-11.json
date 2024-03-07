@@ -1,0 +1,11 @@
+{
+  "contest": 342,
+  "handle": "Hound",
+  "crew": [
+    "DadeKuma"
+  ],
+  "risk": "2",
+  "title": "Missing price checks for Chainlink oracle",
+  "issueId": 11,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/11"
+}
