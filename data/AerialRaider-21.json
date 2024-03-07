@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "AerialRaider",
+  "risk": "2",
+  "title": "\"Call Without Gas Budget\" in the _transferToken function at line 867 of the V3Utils contract ",
+  "issueId": 21,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/21"
+}
