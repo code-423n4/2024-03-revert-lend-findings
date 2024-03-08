@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "MSaptarshi",
+  "risk": "3",
+  "title": "onERC721Received callback is never called when new tokens are minted or transferred",
+  "issueId": 27,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/27"
+}
