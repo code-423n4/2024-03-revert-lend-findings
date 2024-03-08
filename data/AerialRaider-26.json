@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "AerialRaider",
+  "risk": "2",
+  "title": "Enhance the security of the FlashloanLiquidator contract and ensure that the uniswapV3FlashCallback function can only be called by the expected Uniswap V3 pool addresses",
+  "issueId": 26,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/26"
+}
