@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "t4sk",
+  "risk": "2",
+  "title": "V3Oracle._getReferenceTokenPriceX96 resets cachedChainlinkReferencePriceX96 to 0",
+  "issueId": 22,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/22"
+}
