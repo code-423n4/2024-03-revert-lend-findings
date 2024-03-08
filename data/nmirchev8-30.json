@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "nmirchev8",
+  "risk": "3",
+  "title": "Front-running to ERC20 permit2 would lock signer funds in vault ",
+  "issueId": 30,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/30"
+}
