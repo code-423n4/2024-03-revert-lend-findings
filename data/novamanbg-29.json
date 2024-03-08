@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "novamanbg",
+  "risk": "2",
+  "title": "Gas griefing/theft is possible on unsafe external call",
+  "issueId": 29,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/29"
+}
