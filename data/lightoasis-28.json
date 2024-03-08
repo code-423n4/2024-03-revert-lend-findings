@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "lightoasis",
+  "risk": "3",
+  "title": "Liquidations could use price data from an invalid Chainlink response",
+  "issueId": 28,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/28"
+}
