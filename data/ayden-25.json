@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "ayden",
+  "risk": "3",
+  "title": "User safeTransferFrom to transfer NFT back to owner can lead to loan is enable to be liquidated",
+  "issueId": 25,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/25"
+}
