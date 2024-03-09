@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "lightoasis",
+  "risk": "3",
+  "title": "If the borrower enters token blacklist, LP may never be able to retrieve Liquidity",
+  "issueId": 34,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/34"
+}
