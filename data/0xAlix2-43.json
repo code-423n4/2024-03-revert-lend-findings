@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xAlix2",
+  "risk": "3",
+  "title": "Not decreasing `dailyDebtIncreaseLimitLeft`  when user is liquidated causing no one to be able to borrow even if it is allowed ",
+  "issueId": 43,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/43"
+}
