@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xAlix2",
+  "risk": "3",
+  "title": "Loan is not liquidatable if a token of the position's pair was un-whitelisted",
+  "issueId": 42,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/42"
+}
