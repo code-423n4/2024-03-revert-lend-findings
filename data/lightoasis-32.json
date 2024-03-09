@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "lightoasis",
+  "risk": "2",
+  "title": "Missing circuit breaker checks in getValue() for Chainlink's price feed ",
+  "issueId": 32,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/32"
+}
