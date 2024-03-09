@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "lightoasis",
+  "risk": "3",
+  "title": "Dangerous use of deadline parameter when interacting with Uniswap's INonfungiblePositionManager",
+  "issueId": 38,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/38"
+}
