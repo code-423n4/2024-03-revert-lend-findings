@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xjuan",
+  "risk": "3",
+  "title": "Owner of a position can prevent liquidation due to the 'onERC721Received' callback",
+  "issueId": 54,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/54"
+}
