@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "AuditorPraise",
+  "risk": "3",
+  "title": "`V3Vault.deposit()` may always revert DailyLendIncreaseLimit() ",
+  "issueId": 63,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/63"
+}
