@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "nmirchev8",
+  "risk": "3",
+  "title": "If borrower is  not `IERC721Receiver`, his position cannot be liquidated and can accrue a lot of bad dept ",
+  "issueId": 51,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/51"
+}
