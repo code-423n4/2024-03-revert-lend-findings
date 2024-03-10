@@ -1,5 +1,22 @@
+1. There are no max and min values for the reserve factor.
 
-Protocol mints less shares than intended.
+The reserve factor is the percentage difference between debt and lend interest. There are currently no max and min values for the reserve factor. This could impact the borrowers and the lenders it is set too high or too low.
+[V3Vault.sol#L838](https://github.com/code-423n4/2024-03-revert-lend/blob/435b054f9ad2404173f36f0f74a5096c894b12b7/src/V3Vault.sol#L838)
+```
+    function setReserveFactor(uint32 _reserveFactorX32) external onlyOwner {
+        reserveFactorX32 = _reserveFactorX32;
+        emit SetReserveFactor(_reserveFactorX32);
+    }
+```
+
+## Tools Used
+Manual Review
+
+## Recommended Mitigation Steps
+Consider implementing max and min values for the reserve factor. These values shouldn't be exceeded when setting the reserve factor.
+
+
+2. Protocol mints less shares than intended.
 
 The vulnerability is similar to [kelp #62](https://github.com/code-423n4/2023-11-kelp-findings/issues/62) where less tokens than intended were minted because the asset's price was higher after transferring the user's deposited amount before minting.
 
