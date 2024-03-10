@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "AuditorPraise",
+  "risk": "3",
+  "title": "`collateralFactorX32` which is the value of a token as collateral is a static value this can hinder liquidations in certain scenarios",
+  "issueId": 62,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/62"
+}
