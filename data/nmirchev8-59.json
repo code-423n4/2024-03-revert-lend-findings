@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "nmirchev8",
+  "risk": "2",
+  "title": " User can DoS being liquidated if he repays only `1` share, before someone tries to liquidate him",
+  "issueId": 59,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/59"
+}
