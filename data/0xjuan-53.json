@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xjuan",
+  "risk": "3",
+  "title": "Incorrect liquidation fee calculation during underwater liquidation, disincentivizing liquidators to participate",
+  "issueId": 53,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/53"
+}
