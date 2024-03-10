@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "AuditorPraise",
+  "risk": "3",
+  "title": "Malicious user can borrow with Uniswap V3 LP position NFTs that has very little or no liquidity as collateral",
+  "issueId": 58,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/58"
+}
