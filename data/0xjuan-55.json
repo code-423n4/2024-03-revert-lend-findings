@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xjuan",
+  "risk": "3",
+  "title": "Weak user validation in AutoExit::configToken allows anyone to change config of anyone's token",
+  "issueId": 55,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/55"
+}
