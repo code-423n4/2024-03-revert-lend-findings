@@ -110,7 +110,7 @@ Transfer tokens in the end:
 ## 3. Reentrancy issue in V3Vault.create()
 
 
-## Vulnerability details
+### Vulnerability details
 ### Bug Description
 
 In create, a token transfer is triggered without a reentrancy guard in place which can lead to exploits. The function also doesn't follow CEI (Checks and Effects Interaction pattern) which means to make neccessary checks and update the contract's state before makinng any external calls. The function in it's current implementation is vulnerabile to reentrancy attacks. 
