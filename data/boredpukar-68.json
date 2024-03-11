@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "boredpukar",
+  "risk": "3",
+  "title": "Insufficient Pre-Swap Balance Validation and Post-Swap Slippage Control",
+  "issueId": 68,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/68"
+}
