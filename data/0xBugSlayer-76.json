@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xBugSlayer",
+  "risk": "3",
+  "title": "[H-1] - User can easily create a position, that can't be liquidated  ",
+  "issueId": 76,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/76"
+}
