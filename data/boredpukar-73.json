@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "boredpukar",
+  "risk": "3",
+  "title": "Usage of `slot0` to fetch `sqrtPriceX96` value can lead to price manipulation",
+  "issueId": 73,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/73"
+}
