@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "AuditorPraise",
+  "risk": "3",
+  "title": "In transform mode, new position sent isn't checked to ensure it has liquidity",
+  "issueId": 70,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/70"
+}
