@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "maxim371",
+  "risk": "2",
+  "title": "AutoRange.sol::execute code logic leads to unintended consequnces",
+  "issueId": 66,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/66"
+}
