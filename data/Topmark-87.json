@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Topmark",
+  "risk": "3",
+  "title": "Deposit would Not Revert when Total Supply is too Excessive to handle globalLendLimit ",
+  "issueId": 87,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/87"
+}
