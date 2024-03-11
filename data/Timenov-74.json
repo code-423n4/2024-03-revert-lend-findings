@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Timenov",
+  "risk": "3",
+  "title": "Anyone can call `leverageUp` and `leverageDown` functions",
+  "issueId": 74,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/74"
+}
