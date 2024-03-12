@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Bauchibred",
+  "risk": "3",
+  "title": " `_getReferencePoolPriceX96()` will show incorrect price for negative tick deltas in current implementation cause it doesn't round up for them",
+  "issueId": 127,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/127"
+}
