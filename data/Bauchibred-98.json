@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Bauchibred",
+  "risk": "3",
+  "title": "The logic behind `MIN_PRICE_DIFFERENCE` is heavily flawed as it allows for heavy arbitraging",
+  "issueId": 98,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/98"
+}
