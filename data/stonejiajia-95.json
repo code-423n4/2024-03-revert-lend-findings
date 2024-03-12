@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "stonejiajia",
+  "risk": "2",
+  "title": "The deposite withdraw function lacks nonReentrant protection, which may pose a risk of reentrancy attacks.",
+  "issueId": 95,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/95"
+}
