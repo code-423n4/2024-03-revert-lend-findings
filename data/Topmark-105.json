@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Topmark",
+  "risk": "3",
+  "title": "Wrong Fee Growth due to Overflow Error",
+  "issueId": 105,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/105"
+}
