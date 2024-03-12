@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xjuan",
+  "risk": "2",
+  "title": "AutoRange execution can be front-ran to avoid protocol fee, causing loss for protocol",
+  "issueId": 110,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/110"
+}
