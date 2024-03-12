@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Topmark",
+  "risk": "2",
+  "title": "Denial of Service when Price Difference is Equal Minimum Allowed Price Difference",
+  "issueId": 97,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/97"
+}
