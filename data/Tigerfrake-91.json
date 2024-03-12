@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Tigerfrake",
+  "risk": "3",
+  "title": "An approved caller will not be able to transform loans for which they have been approved as long as they are not the loanOwner",
+  "issueId": 91,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/91"
+}
