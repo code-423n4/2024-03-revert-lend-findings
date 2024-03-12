@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xDemon",
+  "risk": "2",
+  "title": "The ERC-4626 standard is not followed correctly",
+  "issueId": 111,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/111"
+}
