@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "No grace period applied which would then allow positions to be liquidated after sequencer goes down since now users don't have enough time to deposit funds",
+  "issueId": 119,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/119"
+}
