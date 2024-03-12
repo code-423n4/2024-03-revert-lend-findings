@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "ali_shehab",
+  "risk": "2",
+  "title": "Malicous user can front-run the execute function in Autorange causing user transfrom call to always fail",
+  "issueId": 124,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/124"
+}
