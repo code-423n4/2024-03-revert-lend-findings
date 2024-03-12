@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "Protocol implements an incorrect `price difference ` logic which could lead to using a different mode than was specified",
+  "issueId": 109,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/109"
+}
