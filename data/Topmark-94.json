@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Topmark",
+  "risk": "3",
+  "title": "Owned Token Index is not Deleted after Removal which could Break Protocol",
+  "issueId": 94,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/94"
+}
