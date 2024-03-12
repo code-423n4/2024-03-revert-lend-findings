@@ -59,3 +59,27 @@ https://github.com/code-423n4/2024-03-revert-lend/blob/main/src/V3Vault.sol#L221
 >>>        amount = _convertToAssets(balanceOf(account), newLendExchangeRateX96, Math.Rounding.Down);
     }
 ```
+### Report 3:
+#### Unnecessary Validation
+As adjusted in the code provided below in the AutoRange contract, validation was done in two directions when config.onlyFees and when !config.onlyFees, since it holds true both ways using it in the validation is not necessary and only makes it harder to read and takes up storage, code should be adjusted as provided below
+https://github.com/code-423n4/2024-03-revert-lend/blob/main/src/transformers/AutoRange.sol#L123
+```solidity
+   function execute(ExecuteParams calldata params) external {
+        if (!operators[msg.sender] && !vaults[msg.sender]) {
+            revert Unauthorized();
+        }
+        ExecuteState memory state;
+        PositionConfig memory config = positionConfigs[params.tokenId];
+
+        if (config.lowerTickDelta == config.upperTickDelta) {
+            revert NotConfigured();
+        }
+
+        if (
+---           config.onlyFees && params.rewardX64 > config.maxRewardX64
+---                || !config.onlyFees && params.rewardX64 > config.maxRewardX64
++++            params.rewardX64 > config.maxRewardX64
+        ) {
+            revert ExceedsMaxReward();
+        }
+```
