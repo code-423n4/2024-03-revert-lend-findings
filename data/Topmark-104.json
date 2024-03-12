@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Topmark",
+  "risk": "3",
+  "title": "Unintended Denial of Service when Verified Chainlink and Verified Twap Price is used by Oracle",
+  "issueId": 104,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/104"
+}
