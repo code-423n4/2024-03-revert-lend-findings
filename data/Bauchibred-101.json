@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "Uniswap oracle should not be used as a source of pricing on L2s",
+  "issueId": 101,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/101"
+}
