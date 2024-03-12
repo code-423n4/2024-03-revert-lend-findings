@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Fitro",
+  "risk": "2",
+  "title": "Automator.sol :: _validateSwap() Usage of slot.0 to obtain sqrtPriceLimitX96 can lead to price manipulation.",
+  "issueId": 132,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/132"
+}
