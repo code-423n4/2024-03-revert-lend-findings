@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Bauchibred",
+  "risk": "2",
+  "title": "In-range ticks would wrongly revert as out of range while adjusting tokens via a vault or transform",
+  "issueId": 102,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/102"
+}
