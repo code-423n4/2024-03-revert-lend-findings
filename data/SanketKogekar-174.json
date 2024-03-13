@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "SanketKogekar",
+  "risk": "2",
+  "title": "The function `AutoExit.sol::execute()` does not consider extreme market conditions where the actual slippage might exceed bounds, potentially resulting in unfavourable swaps resulting in loss for users",
+  "issueId": 174,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/174"
+}
