@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "sil3th",
+  "risk": "3",
+  "title": "`_checkLoanIsHealthy` does not Account for fees Causing Loss of Protocol funds.  ",
+  "issueId": 164,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/164"
+}
