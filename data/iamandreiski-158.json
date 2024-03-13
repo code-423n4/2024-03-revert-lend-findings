@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "iamandreiski",
+  "risk": "3",
+  "title": "Tokens can't be removed as a collateral without breaking some liquidations and other core functions",
+  "issueId": 158,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/158"
+}
