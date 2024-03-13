@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "MSaptarshi",
+  "risk": "2",
+  "title": "Tokens are left in the protocol when the swap at the destination chain fails",
+  "issueId": 138,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/138"
+}
