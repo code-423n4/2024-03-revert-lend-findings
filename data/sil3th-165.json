@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "sil3th",
+  "risk": "2",
+  "title": "`createWithPermit`  does not do a Zero Address Check",
+  "issueId": 165,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/165"
+}
