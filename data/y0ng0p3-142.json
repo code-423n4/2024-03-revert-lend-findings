@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "y0ng0p3",
+  "risk": "3",
+  "title": "V3Oracle::_getReferencePoolPriceX96() is susceptible to flashloan exploits",
+  "issueId": 142,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/142"
+}
