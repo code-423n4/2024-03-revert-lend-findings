@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "lanrebayode77",
+  "risk": "3",
+  "title": "User token might remain stuck in the V3Vault contract if collateral threshold has been surpassed.",
+  "issueId": 137,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/137"
+}
