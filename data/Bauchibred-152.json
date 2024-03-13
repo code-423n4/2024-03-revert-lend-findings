@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Bauchibred",
+  "risk": "3",
+  "title": " `getAmountsForLiquidity()` used in V3Oracle..sol uses `mulDiv` from UniswapV3 which expects overflow behaviour but overflows can't happen.",
+  "issueId": 152,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/152"
+}
