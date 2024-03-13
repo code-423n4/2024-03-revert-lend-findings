@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Tigerfrake",
+  "risk": "2",
+  "title": "Unbounded token array in Automator::withdrawBalances() function may results in Potential DoS. ",
+  "issueId": 155,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/155"
+}
