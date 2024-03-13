@@ -7,5 +7,4 @@ $ find . -name "*.sol" | xargs grep -n recieve
 ./src/V3Vault.sol:399:    /// @param recipient Address to recieve the position in the vault
 ./src/V3Vault.sol:407:    /// @param recipient Address to recieve the position in the vault
 ./src/V3Vault.sol:427:    /// @notice Whenever a token is recieved it either creates a new loan, or modifies an existing one when in transform mode.
-./src/interfaces/IVault.sol:78:        // min amount to recieve
 ```
