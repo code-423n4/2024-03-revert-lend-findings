@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "lanrebayode77",
+  "risk": "2",
+  "title": "dailyDebtIncreaseLimitLeft is not updated in liquidate().",
+  "issueId": 140,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/140"
+}
