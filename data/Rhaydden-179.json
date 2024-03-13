@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Rhaydden",
+  "risk": "2",
+  "title": "V3Vault.sol does not adhere to EIP4626 standards because of the Preview functions",
+  "issueId": 179,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/179"
+}
