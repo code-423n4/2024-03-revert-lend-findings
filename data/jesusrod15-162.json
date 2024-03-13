@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "jesusrod15",
+  "risk": "3",
+  "title": " users can steal funds using permitData when call certain functions",
+  "issueId": 162,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/162"
+}
