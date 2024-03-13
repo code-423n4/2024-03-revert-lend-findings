@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "SanketKogekar",
+  "risk": "2",
+  "title": "The function `AutoExit.sol::execute()` deducts the reward from the token amounts after performing swaps or liquidity removals, potentially causing loss for the users.",
+  "issueId": 173,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/173"
+}
