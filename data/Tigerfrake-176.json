@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Tigerfrake",
+  "risk": "2",
+  "title": "Missing deadline check in decreaseLiquidityAndCollect() allow pending transactions to be maliciously executed",
+  "issueId": 176,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/176"
+}
