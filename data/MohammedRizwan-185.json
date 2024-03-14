@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "MohammedRizwan",
+  "risk": "3",
+  "title": "Using `slot0` for `sqrtPriceX96` in order to calculate amount could lead to price manipulation",
+  "issueId": 185,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/185"
+}
