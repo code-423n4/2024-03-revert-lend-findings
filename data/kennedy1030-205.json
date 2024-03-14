@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "kennedy1030",
+  "risk": "3",
+  "title": "Improper validation of liquidation reward in `FlashloanLiquidator.uniswapV3FlashCallback()`.",
+  "issueId": 205,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/205"
+}
