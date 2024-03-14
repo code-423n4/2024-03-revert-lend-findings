@@ -351,3 +351,69 @@ The effect is net positive by a big margin.
 --            }
 --        }
 ```
+
+## [G-05] `AutoExit::execute` can be optimized
+
+There's no need to declare `ExecuteState memory state;` in `execute` before executing the `!config.isActive` and `config.onlyFees && params.rewardX64 > config.maxRewardX64 || !config.onlyFees && params.rewardX64 > config.maxRewardX64` checks.
+
+```
+    function execute(ExecuteParams calldata params) external {
+        if (!operators[msg.sender]) {
+            revert Unauthorized();
+        }
+
+@>        ExecuteState memory state; 
+        PositionConfig memory config = positionConfigs[params.tokenId];
+
+        if (!config.isActive) {
+            revert NotConfigured();
+        }
+
+        if (
+            config.onlyFees && params.rewardX64 > config.maxRewardX64
+                || !config.onlyFees && params.rewardX64 > config.maxRewardX64
+        ) {
+            revert ExceedsMaxReward();
+        }
+
+        // get position info
+        (,, state.token0, state.token1, state.fee, state.tickLower, state.tickUpper, state.liquidity,,,,) =
+            nonfungiblePositionManager.positions(params.tokenId);
+```
+
+We don't need any additional tests for this change, using the existing test suite if we snapshot the before and after we get the following:
+```
+testOracleCheck() (gas: -809 (-0.024%))
+testRangesAndActions() (gas: -366 (-0.046%))
+testStopLoss() (gas: -440 (-0.071%))
+testLimitOrder(bool) (gas: -440 (-0.104%))
+testRunWithoutConfig() (gas: -422 (-0.932%))
+```
+
+#### Recommendation
+
+```diff
+    function execute(ExecuteParams calldata params) external {
+        if (!operators[msg.sender]) {
+            revert Unauthorized();
+        }
+
+--        ExecuteState memory state;
+        PositionConfig memory config = positionConfigs[params.tokenId];
+
+        if (!config.isActive) {
+            revert NotConfigured();
+        }
+
+        if (
+            config.onlyFees && params.rewardX64 > config.maxRewardX64
+                || !config.onlyFees && params.rewardX64 > config.maxRewardX64
+        ) {
+            revert ExceedsMaxReward();
+        }
+++        ExecuteState memory state;
+        // get position info
+        (,, state.token0, state.token1, state.fee, state.tickLower, state.tickUpper, state.liquidity,,,,) =
+            nonfungiblePositionManager.positions(params.tokenId);
+
+```
