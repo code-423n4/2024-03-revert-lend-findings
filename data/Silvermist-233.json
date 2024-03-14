@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Silvermist",
+  "risk": "3",
+  "title": "Use of slot0 to get sqrtPriceX96 can lead to price manipulation",
+  "issueId": 233,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/233"
+}
