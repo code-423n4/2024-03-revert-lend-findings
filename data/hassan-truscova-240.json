@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "hassan-truscova",
+  "risk": "2",
+  "title": "The exchange rate change in the case of Lossy Strategy will cause the Vault to be under-collateralized for ERC4626 Yield Vaults",
+  "issueId": 240,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/240"
+}
