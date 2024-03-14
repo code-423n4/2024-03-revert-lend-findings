@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xAlix2",
+  "risk": "3",
+  "title": "Loan can never be liquidated if the token owner is a contract that always revert on `onERC721Received`",
+  "issueId": 237,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/237"
+}
