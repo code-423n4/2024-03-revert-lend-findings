@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "crypticdefense",
+  "risk": "2",
+  "title": "`V3Vault::maxRedeem` does not comply with ERC4626",
+  "issueId": 246,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/246"
+}
