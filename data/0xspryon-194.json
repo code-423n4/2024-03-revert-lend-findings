@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xspryon",
+  "risk": "2",
+  "title": "V3Vault::deposit(), V3Vault::withdraw(), V3Vault::mint() and V3Vault::redeem() do not check for the maximums values",
+  "issueId": 194,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/194"
+}
