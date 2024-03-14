@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "JCN",
+  "risk": "2",
+  "title": "Liquidations can be temporarily DoS-ed, potentially increasing the chances of the protocol incurring bad debt",
+  "issueId": 231,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/231"
+}
