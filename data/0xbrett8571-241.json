@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xbrett8571",
+  "risk": "2",
+  "title": "`execute()` function in the `AutoCompound` contract is vulnerable to reentrancy, potentially allowing an attacker to drain unclaimed fees from other positions.",
+  "issueId": 241,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/241"
+}
