@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xbrett8571",
+  "risk": "2",
+  "title": "`_routerSwap()` function in the `Swapper` contract allows users to execute arbitrary call data on approved external swap routers, potentially leading to fund theft if the routers have vulnerabilities or are compromised.",
+  "issueId": 244,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/244"
+}
