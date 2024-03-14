@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "kennedy1030",
+  "risk": "3",
+  "title": "Integer overflow may happen in `V3Oracle._getReferenceTokenPriceX96()`.",
+  "issueId": 215,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/215"
+}
