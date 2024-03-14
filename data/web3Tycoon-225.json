@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "web3Tycoon",
+  "risk": "3",
+  "title": "A position can frontrun the liquidators when they call `liquidate` in `V3Vault.sol`.",
+  "issueId": 225,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/225"
+}
