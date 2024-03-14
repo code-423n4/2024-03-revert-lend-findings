@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "JCN",
+  "risk": "2",
+  "title": "Users' newly created positions can be prematurely closed and removed from the vault directly after they are created",
+  "issueId": 232,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/232"
+}
