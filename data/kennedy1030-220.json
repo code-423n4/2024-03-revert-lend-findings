@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "kennedy1030",
+  "risk": "2",
+  "title": "Improper return of `chainlinkReferencePriceX96` in `V3Oracle._getReferenceTokenPriceX96()`.",
+  "issueId": 220,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/220"
+}
