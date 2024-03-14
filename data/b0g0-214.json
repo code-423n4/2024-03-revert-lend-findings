@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "b0g0",
+  "risk": "3",
+  "title": "V3Vault::transform does not validate the `data` input and allows a depositor to exploit any position approved on the transformer",
+  "issueId": 214,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/214"
+}
