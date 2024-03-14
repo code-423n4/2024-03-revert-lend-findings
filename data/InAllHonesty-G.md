@@ -182,4 +182,127 @@ testLiquidationDebtChanged() (gas: -18216 (-2.053%))
 --        }
 ```
 
-## [G-03]
+## [G-03] `V3Vault::_deposit` can be optimized
+
+`_deposit` is performing the `totalSupply() > globalLendLimit` and `assets > dailyLendIncreaseLimitLeft` below the transfer of assets and minting of shares, generating quite a gas expenditure in case one of the checks fails:
+
+```
+    function _deposit(address receiver, uint256 amount, bool isShare, bytes memory permitData)
+        internal
+        returns (uint256 assets, uint256 shares)
+    {
+        (, uint256 newLendExchangeRateX96) = _updateGlobalInterest();
+
+        _resetDailyLendIncreaseLimit(newLendExchangeRateX96, false);
+
+        if (isShare) {
+            shares = amount;
+            assets = _convertToAssets(shares, newLendExchangeRateX96, Math.Rounding.Up);
+        } else {
+            assets = amount;
+            shares = _convertToShares(assets, newLendExchangeRateX96, Math.Rounding.Down);
+        }
+
+        if (permitData.length > 0) {
+            (ISignatureTransfer.PermitTransferFrom memory permit, bytes memory signature) =
+                abi.decode(permitData, (ISignatureTransfer.PermitTransferFrom, bytes));
+            permit2.permitTransferFrom(
+                permit, ISignatureTransfer.SignatureTransferDetails(address(this), assets), msg.sender, signature
+            );
+        } else {
+            // fails if not enough token approved
+            SafeERC20.safeTransferFrom(IERC20(asset), msg.sender, address(this), assets);
+        }
+
+        _mint(receiver, shares);
+
+@>        if (totalSupply() > globalLendLimit) {
+@>            revert GlobalLendLimit();
+@>        }
+
+@>        if (assets > dailyLendIncreaseLimitLeft) {
+@>            revert DailyLendIncreaseLimit();
+@>        } else {
+            dailyLendIncreaseLimitLeft -= assets;
+        }
+```
+
+Both these checks should be moved on [Line 892](https://github.com/code-423n4/2024-03-revert-lend/blob/435b054f9ad2404173f36f0f74a5096c894b12b7/src/V3Vault.sol#L892). The one related to `totalSupply` needs to be modified a bit because the check against `globalLendLimit` must include the newly minted shares. More in the Recommended section.
+
+Please copy the following two tests in `V3Vault.t.sol`:
+```
+    function testRevertDeposit1() external {
+        vm.startPrank(WHALE_ACCOUNT);
+        USDC.approve(address(vault), 13e6);
+        vm.expectRevert(IErrors.DailyLendIncreaseLimit.selector);
+        vault.deposit(13e6, WHALE_ACCOUNT);
+        vm.stopPrank();
+    }
+
+    function testRevertDeposit2() external {
+        vm.startPrank(WHALE_ACCOUNT);
+        USDC.approve(address(vault), 16e6);
+        vm.expectRevert(IErrors.GlobalLendLimit.selector);
+        vault.deposit(16e6, WHALE_ACCOUNT);
+        vm.stopPrank();
+    }
+```
+
+When snapshoting the before and after we get the following:
+```
+testRevertDeposit1() (gas: -58596 (-46.524%))
+testRevertDeposit2() (gas: -58596 (-47.303%))
+```
+
+#### Recommendation
+
+```diff
+    function _deposit(address receiver, uint256 amount, bool isShare, bytes memory permitData)
+        internal
+        returns (uint256 assets, uint256 shares)
+    {
+        (, uint256 newLendExchangeRateX96) = _updateGlobalInterest();
+
+        _resetDailyLendIncreaseLimit(newLendExchangeRateX96, false);
+
+        if (isShare) {
+            shares = amount;
+            assets = _convertToAssets(shares, newLendExchangeRateX96, Math.Rounding.Up);
+        } else {
+            assets = amount;
+            shares = _convertToShares(assets, newLendExchangeRateX96, Math.Rounding.Down);
+        }
+
+++        if (totalSupply() + shares > globalLendLimit) { //We change the check a little bit to account for the shares that are about to be minted. We do this because this check has been moved before the minting executes.
+++            revert GlobalLendLimit();
+++        }
+++        if (assets > dailyLendIncreaseLimitLeft) {
+++            revert DailyLendIncreaseLimit();
+++        }
+
+        if (permitData.length > 0) {
+            (ISignatureTransfer.PermitTransferFrom memory permit, bytes memory signature) =
+                abi.decode(permitData, (ISignatureTransfer.PermitTransferFrom, bytes));
+            permit2.permitTransferFrom(
+                permit, ISignatureTransfer.SignatureTransferDetails(address(this), assets), msg.sender, signature
+            );
+        } else {
+            // fails if not enough token approved
+            SafeERC20.safeTransferFrom(IERC20(asset), msg.sender, address(this), assets);
+        }
+
+        _mint(receiver, shares);
+
+--        if (totalSupply() > globalLendLimit) {
+--            revert GlobalLendLimit();
+--        }
+
+--        if (assets > dailyLendIncreaseLimitLeft) {
+--            revert DailyLendIncreaseLimit();
+--        } else {
+            dailyLendIncreaseLimitLeft -= assets; //This line stays, inside the main body of the function, not inside any if block.
+--        }
+
+        emit Deposit(msg.sender, receiver, assets, shares);
+    }
+```
