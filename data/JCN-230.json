@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "JCN",
+  "risk": "2",
+  "title": "A malicious actor can grief users who are attempting to repay their entire debt",
+  "issueId": 230,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/230"
+}
