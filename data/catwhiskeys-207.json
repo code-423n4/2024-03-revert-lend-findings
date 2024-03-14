@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "catwhiskeys",
+  "risk": "2",
+  "title": "`AutoCompound::withdrawBalances()` can be DoSed due to the Gas Exhaustion Attack",
+  "issueId": 207,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/207"
+}
