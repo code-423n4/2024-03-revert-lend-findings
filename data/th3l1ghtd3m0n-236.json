@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "th3l1ghtd3m0n",
+  "risk": "2",
+  "title": "`mint`, `increaseLiquidity` and `decreaseLiquidity` missing slippage protection",
+  "issueId": 236,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/236"
+}
