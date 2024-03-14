@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xbrett8571",
+  "risk": "2",
+  "title": "`configToken()` function in the `AutoRange` contract has insufficient access control, potentially allowing unauthorized entities to manipulate the range and pricing of Uniswap V3 LP positions.",
+  "issueId": 243,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/243"
+}
