@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "kfx",
+  "risk": "2",
+  "title": "The repository is vulnerable to `permit` front-running attacks.",
+  "issueId": 213,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/213"
+}
