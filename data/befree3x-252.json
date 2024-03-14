@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "befree3x",
+  "risk": "2",
+  "title": " `V3Vault::_deposit` use a wrong condition to check for the Global Lend Limit",
+  "issueId": 252,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/252"
+}
