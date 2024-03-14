@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "kfx",
+  "risk": "2",
+  "title": "Repayments and liquidations can be forced to revert by an attacker that repays miniscule amount of shares",
+  "issueId": 222,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/222"
+}
