@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "kennedy1030",
+  "risk": "2",
+  "title": "# Title: Improper limit validation of `totalSupply` in `V3Vault._deposit()`.",
+  "issueId": 217,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/217"
+}
