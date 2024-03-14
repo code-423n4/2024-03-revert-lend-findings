@@ -306,3 +306,48 @@ testRevertDeposit2() (gas: -58596 (-47.303%))
         emit Deposit(msg.sender, receiver, assets, shares);
     }
 ```
+
+## [G-04] `AutoExit::configToken` can be optimized
+
+The order of operations in `configToken` can be improved by moving the `config.token0TriggerTick >= config.token1TriggerTick` check before reading and defining the owner in order to save an SLOAD.
+
+```
+    function configToken(uint256 tokenId, PositionConfig calldata config) external {
+        address owner = nonfungiblePositionManager.ownerOf(tokenId);
+        if (owner != msg.sender) {
+            revert Unauthorized();
+        }
+
+@>        if (config.isActive) {
+@>            if (config.token0TriggerTick >= config.token1TriggerTick) {
+@>                revert InvalidConfig();
+@>            }
+@>        }
+```
+
+We don't need any additional tests for this change, using the existing test suite if we snapshot the before and after we get the following:
+```
+testUnauthorizedSetConfig() (gas: 164 (0.823%))
+testInvalidConfig() (gas: -10053 (-49.291%))
+```
+The effect is net positive by a big margin.
+
+#### Recommendation
+```diff
+    function configToken(uint256 tokenId, PositionConfig calldata config) external {
+++        if (config.isActive) {
+++            if (config.token0TriggerTick >= config.token1TriggerTick) {
+++                revert InvalidConfig();
+++            }
+++        }
+        address owner = nonfungiblePositionManager.ownerOf(tokenId);
+        if (owner != msg.sender) {
+            revert Unauthorized();
+        }
+
+--        if (config.isActive) {
+--            if (config.token0TriggerTick >= config.token1TriggerTick) {
+--                revert InvalidConfig();
+--            }
+--        }
+```
