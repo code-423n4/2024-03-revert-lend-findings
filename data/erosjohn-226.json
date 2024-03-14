@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "erosjohn",
+  "risk": "2",
+  "title": "V3Vault.sol#maxWithdraw does not take the borrowed assets into account which will result in possible revert when withdrawing the assets",
+  "issueId": 226,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/226"
+}
