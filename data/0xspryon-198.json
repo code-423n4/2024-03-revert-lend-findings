@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xspryon",
+  "risk": "2",
+  "title": "Calls to nonfungiblePositionManager.increaseLiquidity, nonfungiblePositionManager.decreaseLiquidity and nonfungiblePositionManager.mint are missing slippage protection in AutoCompound, V3Vault and AutoRange contracts",
+  "issueId": 198,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/198"
+}
