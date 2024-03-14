@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xspryon",
+  "risk": "2",
+  "title": "The deposit - withdraw - trade transaction lack of expiration timestamp check",
+  "issueId": 200,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/200"
+}
