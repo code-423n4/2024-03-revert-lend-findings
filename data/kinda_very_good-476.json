@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "kinda_very_good",
+  "risk": "3",
+  "title": "A malicious actor can create a position with a recipient contract that does not follow the IERC721Receiver standard, hence being unliquidatable whilst still having access to the arbitrage the funds in the NFT via the V3Vault::transfrom function",
+  "issueId": 476,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/476"
+}
