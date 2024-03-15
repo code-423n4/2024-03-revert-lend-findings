@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "shaka",
+  "risk": "2",
+  "title": "Daily limits are calculated incorrectly",
+  "issueId": 329,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/329"
+}
