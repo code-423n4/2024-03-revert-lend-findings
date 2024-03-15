@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "adeolu",
+  "risk": "2",
+  "title": "liquidity position fees earned can be smaller than expected. ",
+  "issueId": 357,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/357"
+}
