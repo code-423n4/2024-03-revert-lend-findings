@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "KupiaSec",
+  "risk": "2",
+  "title": "Borrowers can't repay fully using `LeverageTransformer.leverageDown` because it will always revert.",
+  "issueId": 265,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/265"
+}
