@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "BowTiedOriole",
+  "risk": "2",
+  "title": "`ResetDailyIncreaseLimit` incorrectly calculates 10% of the existing debt/lend supply",
+  "issueId": 420,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/420"
+}
