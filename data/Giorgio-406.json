@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Giorgio",
+  "risk": "3",
+  "title": "Liquidation can be frontrunned and bad position kept unhealthy",
+  "issueId": 406,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/406"
+}
