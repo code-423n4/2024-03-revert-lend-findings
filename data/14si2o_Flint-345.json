@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "14si2o_Flint",
+  "risk": "3",
+  "title": "Inflation attack due to the absence of dead shares and the reliance on balanceOf",
+  "issueId": 345,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/345"
+}
