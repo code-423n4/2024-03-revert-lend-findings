@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "linmiaomiao",
+  "risk": "3",
+  "title": "using 18 decimals ERC20 tokens as reference token will cause overflow in price calculation",
+  "issueId": 475,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/475"
+}
