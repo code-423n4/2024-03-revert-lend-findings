@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "hunter_w3b",
+  "risk": "2",
+  "title": "`V3Vault::_calculateGlobalInterest` Rounding error",
+  "issueId": 474,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/474"
+}
