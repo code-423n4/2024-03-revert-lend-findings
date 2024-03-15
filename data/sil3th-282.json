@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "sil3th",
+  "risk": "2",
+  "title": "Inactive _operator can still execute swaps and take fees.",
+  "issueId": 282,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/282"
+}
