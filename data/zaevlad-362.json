@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "zaevlad",
+  "risk": "2",
+  "title": "AutoExit and AutoRange contracts execution process can be DoSed",
+  "issueId": 362,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/362"
+}
