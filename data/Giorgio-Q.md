@@ -39,7 +39,7 @@ https://github.com/code-423n4/2024-03-revert-lend/blob/435b054f9ad2404173f36f0f7
 
 ## Description
 
-When price feed encounter error, they will return 0 instead of the actual price value. This is why it is better to exclude 0 as well
+Under uncommon circumstances price feeds may return 0 which isn't desirable behavior, so it is best to add checks to avoid such conditions.
 
 ## Impact
 
