@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "grearlake",
+  "risk": "2",
+  "title": "V3Oracle._getReferencePoolPriceX96() return wrong price when tick is negative",
+  "issueId": 410,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/410"
+}
