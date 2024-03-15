@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "kfx",
+  "risk": "3",
+  "title": "Lend exchange rate can become zero, effectively bricking the vault",
+  "issueId": 356,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/356"
+}
