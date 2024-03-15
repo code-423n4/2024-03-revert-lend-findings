@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xPhantom",
+  "risk": "3",
+  "title": "A borrower can use the liquidity of the vault without paying any fees if he repay in the same block",
+  "issueId": 338,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/338"
+}
