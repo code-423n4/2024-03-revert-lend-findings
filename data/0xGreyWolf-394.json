@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xGreyWolf",
+  "risk": "3",
+  "title": "There is no `Safety Mechanism Activation` implemented that will emergency `pause` when two price feeds exceed threshold ",
+  "issueId": 394,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/394"
+}
