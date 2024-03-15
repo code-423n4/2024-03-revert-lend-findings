@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Myd",
+  "risk": "2",
+  "title": "No deadline enforcement risks front-running and sandwich attacks.",
+  "issueId": 306,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/306"
+}
