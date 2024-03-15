@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "crypticdefense",
+  "risk": "3",
+  "title": "Liquidity owner can burn their NFT position to permanently lock borrower funds",
+  "issueId": 272,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/272"
+}
