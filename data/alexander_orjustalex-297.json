@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "alexander_orjustalex",
+  "risk": "3",
+  "title": "User can trigger a DoS upon someone trying to liquidate them",
+  "issueId": 297,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/297"
+}
