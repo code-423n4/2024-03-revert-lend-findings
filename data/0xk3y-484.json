@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xk3y",
+  "risk": "2",
+  "title": "No check for active Sequencer in V3Oracle.sol",
+  "issueId": 484,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/484"
+}
