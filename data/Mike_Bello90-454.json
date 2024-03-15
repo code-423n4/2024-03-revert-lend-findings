@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Mike_Bello90",
+  "risk": "2",
+  "title": "DecreaseLiquidity with block.timestamp as Deadline can Cause Problems in Liquidations.",
+  "issueId": 454,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/454"
+}
