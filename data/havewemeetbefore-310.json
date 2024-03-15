@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "havewemeetbefore",
+  "risk": "3",
+  "title": "AutoCompound Holding Can Be Drained By Reentrancy Attack",
+  "issueId": 310,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/310"
+}
