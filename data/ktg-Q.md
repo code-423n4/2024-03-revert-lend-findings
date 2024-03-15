@@ -97,3 +97,25 @@ function _requireMaxDifference(uint256 priceX96, uint256 verifyPriceX96, uint256
     }
 ```
 The function accepts `maxDifferenceX10000` as `uint256` but its max value is 2**16-1 = 65535, which means the maximum difference is about 650 percent.
+
+### L-08: `_hasMaxTWAPTickDifference` is not enough for slippage control in `AutoCompound`
+In function `execute`, the only slippage control for swap is function :
+```solidity
+if (tSecs > 0) {
+                    if (!_hasMaxTWAPTickDifference(pool, tSecs, state.tick, maxTWAPTickDifference)) {
+                        // if there is no valid TWAP - disable swap
+                        amountIn = 0;
+                    }
+                }
+                // if still needed - do swap
+                if (amountIn > 0) {
+                    // no slippage check done - because protected by TWAP check
+                    (state.amountInDelta, state.amountOutDelta) = _poolSwap(
+                        Swapper.PoolSwapParams(
+                            pool, IERC20(state.token0), IERC20(state.token1), state.fee, params.swap0To1, amountIn, 0
+                        )
+                    );
+```
+If `maxTWAPTickDifference` is set to maximum value of 200, function `_hasMaxTWAPTickDifference` will return false if price difference is about 1.0001**200 in uniswapV3, or 2%. It means it will allow swapping if price change < 2%; for a lot of users, this number is too big especially when they have a lot of balances in `AutoCompound`.
+
+Further slippage check should be implemented in `AutoCompound`
