@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "zxriptor",
+  "risk": "2",
+  "title": "User can front-run liquidation by repaying the minimum of tokens and gain time to not be liquidated",
+  "issueId": 486,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/486"
+}
