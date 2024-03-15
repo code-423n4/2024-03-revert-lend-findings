@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "KupiaSec",
+  "risk": "2",
+  "title": "`V3Vault._resetDailyLendIncreaseLimit()` and `V3Vault._resetDailyDebtIncreaseLimit()` return incorrect `dailyLendIncreaseLimitLeft` and `dailyDebtIncreaseLimitLeft` respectively.",
+  "issueId": 262,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/262"
+}
