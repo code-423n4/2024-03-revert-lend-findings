@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Aymen0909",
+  "risk": "3",
+  "title": "Risk of reentrancy `onERC721Received` function to manipulate collateral token configs shares",
+  "issueId": 323,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/323"
+}
