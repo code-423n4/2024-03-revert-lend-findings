@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "CRYP70",
+  "risk": "3",
+  "title": "Lack of safety buffer in `_checkLoanIsHealthy` could subject users who take out the max loan into a forced liquidation",
+  "issueId": 363,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/363"
+}
