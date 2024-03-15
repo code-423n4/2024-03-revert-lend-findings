@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "alphacipher",
+  "risk": "2",
+  "title": "`InterestRateModel::getRatesPerSecondX96` borrow rate to be calculated incorrectly when the utilization rate is equal to the kink",
+  "issueId": 487,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/487"
+}
