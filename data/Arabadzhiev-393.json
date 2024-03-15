@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Arabadzhiev",
+  "risk": "2",
+  "title": "Some contracts that implement the `uniswapV3SwapCallback` can be drained using address collision",
+  "issueId": 393,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/393"
+}
