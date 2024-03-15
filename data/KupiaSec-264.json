@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "KupiaSec",
+  "risk": "2",
+  "title": "Whenever borrowers try to repay their debt fully `V3Vault._updateAndCheckCollateral()` is called twice and this occurs unexpected events.",
+  "issueId": 264,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/264"
+}
