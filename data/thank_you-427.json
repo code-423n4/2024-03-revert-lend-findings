@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "thank_you",
+  "risk": "2",
+  "title": "setReserveFactor fails to update global interest before updating reserve factor",
+  "issueId": 427,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/427"
+}
