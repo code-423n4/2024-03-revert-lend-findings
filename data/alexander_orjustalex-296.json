@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "alexander_orjustalex",
+  "risk": "3",
+  "title": "Users can perform DoS when someone tries to liquidate them",
+  "issueId": 296,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/296"
+}
