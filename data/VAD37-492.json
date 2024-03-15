@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "VAD37",
+  "risk": "3",
+  "title": "When liquidate bad loan, protocol does not pay out of reserve as intended and only pay out of lender pocket. Missing update exchangeRate after bad loan calculation.",
+  "issueId": 492,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/492"
+}
