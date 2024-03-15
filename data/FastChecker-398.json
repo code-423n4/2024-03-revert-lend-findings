@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "FastChecker",
+  "risk": "2",
+  "title": "During one day, `lent increase` and `debt increase` may exceed `Max Daily Debt Increase (MDDI)` and `Max Daily Lent Increase`.",
+  "issueId": 398,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/398"
+}
