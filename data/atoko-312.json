@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "atoko",
+  "risk": "2",
+  "title": "Borrower can cause Dos by frontrunning liquidation and repaying as low as 1 Wei to current debt",
+  "issueId": 312,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/312"
+}
