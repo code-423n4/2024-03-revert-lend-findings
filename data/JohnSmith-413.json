@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "JohnSmith",
+  "risk": "3",
+  "title": "Liquidations cannot be performed, revert on NFT received",
+  "issueId": 413,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/413"
+}
