@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Myd",
+  "risk": "2",
+  "title": "Approval risks enable fund drainage by compromised external contracts.",
+  "issueId": 307,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/307"
+}
