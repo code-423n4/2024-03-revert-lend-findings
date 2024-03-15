@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Aymen0909",
+  "risk": "2",
+  "title": "Wrong global lending limit check in `_deposit` function",
+  "issueId": 324,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/324"
+}
