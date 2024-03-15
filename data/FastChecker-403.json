@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "FastChecker",
+  "risk": "3",
+  "title": "`Debt` is larger than `lent`, so `available` can be zero.",
+  "issueId": 403,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/403"
+}
