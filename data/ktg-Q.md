@@ -65,3 +65,16 @@ function _checkApprovals(address token0, address token1) internal {
         }
     }
 ```
+### L-05: Users cannot withdraw their tokens after they burn their Uniswap Position
+The `positionBalances` current track left over tokens based on `tokenId` in Uniswap Pool. This mean if the burn their nft, they cannot get left over tokens in AutoCompound back:
+```solidity
+function withdrawLeftoverBalances(uint256 tokenId, address to) external nonReentrant {
+        address owner = nonfungiblePositionManager.ownerOf(tokenId);
+        if (vaults[owner]) {
+            owner = IVault(owner).ownerOf(tokenId);
+        }
+        if (owner != msg.sender) {
+            revert Unauthorized();
+        }
+```
+Even if the user burn their nft, they should be able to withdraw their tokens in AutoRange, therefore, the variables `positionBalances` should track balances based on the actual address of the owner instead of `tokenId`
