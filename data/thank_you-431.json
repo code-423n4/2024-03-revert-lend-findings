@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "thank_you",
+  "risk": "2",
+  "title": "Users can liquidate Vault loan with token other than Vault asset",
+  "issueId": 431,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/431"
+}
