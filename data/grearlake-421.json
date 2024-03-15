@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "grearlake",
+  "risk": "2",
+  "title": "Risk when settings `twapSeconds` for token's feedConfig: price can be manipulated",
+  "issueId": 421,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/421"
+}
