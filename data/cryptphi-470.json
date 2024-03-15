@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "cryptphi",
+  "risk": "3",
+  "title": "Execute call can be hijacked to steal tokens during swap or increase liquidity for token owner in AutoRange Contract",
+  "issueId": 470,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/470"
+}
