@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Giorgio",
+  "risk": "3",
+  "title": "low TWAP interval / slot0 results in easily manipulated oracles ",
+  "issueId": 462,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/462"
+}
