@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "CRYP70",
+  "risk": "2",
+  "title": "Insufficient access controls in the `LeverageTransformer` may allow an attacker to siphon funds from positions if it is approved",
+  "issueId": 366,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/366"
+}
