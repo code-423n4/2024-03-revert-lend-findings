@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "JCN",
+  "risk": "3",
+  "title": "During liquidations, the raw collateral of a position is compared against an inflated debt value, resulting in fake bad debt being reported ",
+  "issueId": 352,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/352"
+}
