@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "b0g0",
+  "risk": "2",
+  "title": "During transformation the caller can re-enter the Vault through the onERC721Received function",
+  "issueId": 309,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/309"
+}
