@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xAlix2",
+  "risk": "2",
+  "title": "NFT can get stuck forever, if `create` was called and the vault was passed as the receiver",
+  "issueId": 453,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/453"
+}
