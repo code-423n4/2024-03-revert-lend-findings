@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xGreyWolf",
+  "risk": "2",
+  "title": "`V3Vault` lacks slippage protection on functions `deposit()`, `mint()`, `withdraw()` and `redeem()` ",
+  "issueId": 281,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/281"
+}
