@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Norah",
+  "risk": "2",
+  "title": "V3Oracle will undervalue position when  \"sqrtRatioX96 == sqrtRatioAX96\"",
+  "issueId": 361,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/361"
+}
