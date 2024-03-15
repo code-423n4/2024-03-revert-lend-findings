@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xGreyWolf",
+  "risk": "3",
+  "title": "In `V3Vault::liquidate`, the borrower can liquidate his/her own debt position ",
+  "issueId": 384,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/384"
+}
