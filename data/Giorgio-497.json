@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Giorgio",
+  "risk": "2",
+  "title": "Missing slippage in deposit(), withdraw(), redeem() and mint()",
+  "issueId": 497,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/497"
+}
