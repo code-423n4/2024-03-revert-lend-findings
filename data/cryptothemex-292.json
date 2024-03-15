@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "cryptothemex",
+  "risk": "2",
+  "title": "Reentrancy vulnerabilities (no theft of ethers)",
+  "issueId": 292,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/292"
+}
