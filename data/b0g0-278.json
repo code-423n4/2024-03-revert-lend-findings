@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "b0g0",
+  "risk": "2",
+  "title": "An outdated lendExchangeRate might be used during liquidation",
+  "issueId": 278,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/278"
+}
