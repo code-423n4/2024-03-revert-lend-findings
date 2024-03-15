@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "alix40",
+  "risk": "3",
+  "title": "Liqidations on unhealthy Positions could be blocked by Owner by using the `onERC721Received` Hook",
+  "issueId": 408,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/408"
+}
