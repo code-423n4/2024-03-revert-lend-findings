@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Aymen0909",
+  "risk": "3",
+  "title": "Users can drain protocol reserves using `borrow` function",
+  "issueId": 327,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/327"
+}
