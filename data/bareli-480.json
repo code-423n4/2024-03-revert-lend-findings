@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "bareli",
+  "risk": "3",
+  "title": "Underflow could happened when calculating Uniswap V3 position's fee growth and can cause operations to revert",
+  "issueId": 480,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/480"
+}
