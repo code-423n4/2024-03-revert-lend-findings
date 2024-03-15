@@ -97,3 +97,24 @@ if (params.rewardX64 > config.maxRewardX64 ) {
         }
 ```
 
+### No need of second `if` statement for balance check
+https://github.com/code-423n4/2024-03-revert-lend/blob/main/src/utils/FlashloanLiquidator.sol#L101-L107
+```
+uint256 balance = data.asset.balanceOf(address(this));
+            if (balance < data.minReward) {
+                revert NotEnoughReward();
+            }
+            if (balance > 0) { //@audit-remove this check
+                SafeERC20.safeTransfer(data.asset, data.liquidator, balance);
+            }
+```
+balance is already check in first `if` statement, so just remove second `if`  and transfer the balance
+```
+uint256 balance = data.asset.balanceOf(address(this));
+            if (balance < data.minReward) {
+                revert NotEnoughReward();
+            }
+                SafeERC20.safeTransfer(data.asset, data.liquidator, balance);
+        
+```
+
