@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "b0g0",
+  "risk": "2",
+  "title": "Caller of transform can re-enter vault before transformation has completed and distort debt calculation",
+  "issueId": 298,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/298"
+}
