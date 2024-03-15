@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "ArsenLupin",
+  "risk": "3",
+  "title": "Attacker can mint shares using arbitrary token, because the permitTransferFrom doesn't check the assets",
+  "issueId": 299,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/299"
+}
