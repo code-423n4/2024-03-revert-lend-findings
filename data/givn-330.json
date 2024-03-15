@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "givn",
+  "risk": "3",
+  "title": "Liquidation can be frontrun by liquidatee and reverted",
+  "issueId": 330,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/330"
+}
