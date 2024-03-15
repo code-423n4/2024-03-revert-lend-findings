@@ -78,3 +78,22 @@ function withdrawLeftoverBalances(uint256 tokenId, address to) external nonReent
         }
 ```
 Even if the user burn their nft, they should be able to withdraw their tokens in AutoRange, therefore, the variables `positionBalances` should track balances based on the actual address of the owner instead of `tokenId`
+
+
+### L-06: V3Oracle.maxPoolPriceDifference is limited to uint16 value
+`maxPoolPriceDifference` is used in function `_requireMaxDifference` to check if there is too much difference in prices:
+```solidity
+function _requireMaxDifference(uint256 priceX96, uint256 verifyPriceX96, uint256 maxDifferenceX10000)
+        internal
+        pure
+    {
+        uint256 differenceX10000 = priceX96 > verifyPriceX96
+            ? (priceX96 - verifyPriceX96) * 10000 / priceX96
+            : (verifyPriceX96 - priceX96) * 10000 / verifyPriceX96;
+        // if too big difference - revert
+        if (differenceX10000 >= maxDifferenceX10000) {
+            revert PriceDifferenceExceeded();
+        }
+    }
+```
+The function accepts `maxDifferenceX10000` as `uint256` but its max value is 2**16-1 = 65535, which means the maximum difference is about 650 percent.
