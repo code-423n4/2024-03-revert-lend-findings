@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xloscar01",
+  "risk": "3",
+  "title": "`V3Vault::liquidate` users can avoid liquidation by rejecting ERC721 transfers",
+  "issueId": 279,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/279"
+}
