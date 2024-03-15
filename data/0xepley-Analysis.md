@@ -111,6 +111,7 @@ For the interest rates, the model typically employs piecewise linear functions d
 
 Here, the Base Rate, Multiplier, and Jump Multiplier are parameters that can be adjusted to tune the model's responsiveness to changes in liquidity conditions.
 
+
 ### Implementation in the Codebase:
 In the `InterestRateModel.sol`, this dynamic mechanism is encapsulated within functions that calculate the current borrow and supply rates based on the live utilization rate. It uses constants for base rates, multipliers, and the kink threshold, all of which are adjustable to fine-tune the model's behavior. The calculation is implemented in a way that it smoothly transitions from the normal operation phase to the high utilization phase once the kink threshold is crossed, ensuring that interest rates react appropriately to changes in market conditions.
 
@@ -285,9 +286,6 @@ NOTE: I don't track time while auditing or writing report, so what the time I sp
 
 
 
-### Time spent:
-4 hours
-
 
 ### Time spent:
-5 hours
+3 hours
