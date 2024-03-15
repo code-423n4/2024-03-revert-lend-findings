@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "deepplus",
+  "risk": "2",
+  "title": "When `onlyFees` of config is true in `AutoExit.sol`, the reward is calculated incorrectly.",
+  "issueId": 277,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/277"
+}
