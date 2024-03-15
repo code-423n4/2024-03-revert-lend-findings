@@ -422,7 +422,7 @@ This contract allows an approved operator of AutoRange to change the range for t
 
 
 
-## Codebase Quality
+## 5. Codebase Quality
 
 On the whole, I evaluate the quality of `Revert Lend` codebase to be "Good". The contract and function design are clearly well though out, access control is properly implemented and the various standards are well implemented. Some improvements on attention on detail would be advisable and there are architectural complexities. Details are explained below:
 
@@ -437,7 +437,7 @@ On the whole, I evaluate the quality of `Revert Lend` codebase to be "Good". The
 | **Documentation**   | The sole documentation for the V3Vault is the whitepaper, which is excellently written. Nevertheless, more documentation describing the protocol would be very usefull.|
 
 
-## Centralization Risks
+## 6. Centralization Risks
 
 The protocol defines 2 privileged roles:  `Owner` and `EmergencyAdmin`.
 
@@ -471,7 +471,7 @@ The emergencyAdmin can essentially pause the protocol by setting the limits to `
 
 Instead of a custom role, I would recommend to implement the standardised pattern of **pause/unpause**, and adding the `whenNotPaused` modifier to all functions which change state in the protocol. Thus allowing the admin to freeze the entire protocol in case of emergency.    
 
-## Systemic & Integration Risks
+## 7. Systemic & Integration Risks
 
 1. Reliance on double Oracle.
 - The protocols obtain the price information from either Chainlink or Uniswap TWAP and uses the other to verify the price against manipulation. In itself an excellent design but it does mean that the oracle will malfunction if either of the oracle sources malfunctions. This has happened before and even though it is certainly not a reason to not use double verification, it is a risk that should be acknowledged.
@@ -490,6 +490,8 @@ Instead of a custom role, I would recommend to implement the standardised patter
 
 5. Transient Storage
 - The protocol intents (code comment) to use transient storage for the `transformedTokenId` variable, which is critical for guarding against reentrancy. This could a problem since it is a new and fairly unexplored functionality. Since some theoretical [reentrancy](https://chainsecurity.com/tstore-low-gas-reentrancy/) attacks are already being discussed, I would suggest much prudence in implementing this.  
+
+
 
 
 
