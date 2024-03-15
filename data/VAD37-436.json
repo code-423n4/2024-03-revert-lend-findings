@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "VAD37",
+  "risk": "2",
+  "title": "`V3Vault.reserveFactorX32` take away interest profit from lender into reserve without mechanism to increase it or return/reward it back to user",
+  "issueId": 436,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/436"
+}
