@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0xPhantom",
+  "risk": "2",
+  "title": "A user can lost his created position if another user repay 0.",
+  "issueId": 373,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/373"
+}
