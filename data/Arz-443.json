@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Arz",
+  "risk": "3",
+  "title": "An attacker can create a non liquidatable position by making onERC721Received() revert",
+  "issueId": 443,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/443"
+}
