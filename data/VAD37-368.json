@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "VAD37",
+  "risk": "3",
+  "title": "`V3Vault.sol` permit signature does not check receiving token address is USDC",
+  "issueId": 368,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/368"
+}
