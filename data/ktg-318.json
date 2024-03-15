@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "ktg",
+  "risk": "2",
+  "title": "AutoRange does not check if lowerTick and upperTick is compatible with tick spacing",
+  "issueId": 318,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/318"
+}
