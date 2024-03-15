@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "0x175",
+  "risk": "2",
+  "title": "Settling a loan in full when deleveraging always reverts",
+  "issueId": 449,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/449"
+}
