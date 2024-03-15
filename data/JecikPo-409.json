@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "JecikPo",
+  "risk": "2",
+  "title": "Large decimal of referenceToken causes overflow at oracle price calculation",
+  "issueId": 409,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/409"
+}
