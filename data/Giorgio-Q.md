@@ -30,3 +30,29 @@ We can see that block.timestamp is used as an argument, which will result in no 
 ## Mitigation route
 
 Consider adding a parameter for the swap deadline.
+
+## Use answer <= 0 instead answer < 0
+
+## Link
+
+https://github.com/code-423n4/2024-03-revert-lend/blob/435b054f9ad2404173f36f0f74a5096c894b12b7/src/V3Oracle.sol#L338
+
+## Description
+
+When price feed encounter error, they will return 0 instead of the actual price value. This is why it is better to exclude 0 as well
+
+## Impact
+
+The usage of 0 price is devastating to the protocol 
+
+## POC
+
+```
+        if (updatedAt + feedConfig.maxFeedAge < block.timestamp || answer < 0) {
+```
+
+As we can see above, if 0 is returned it will be accepted, this is not desirable behavior
+
+## Mitigation route
+
+Do use `answer <= 0` instead
