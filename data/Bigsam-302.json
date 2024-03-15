@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Bigsam",
+  "risk": "2",
+  "title": "Users will never be able to  clear (repay) 100% of their loan balance(almost impossible ), It will require a high level of precision from the user for currentShares == shares.",
+  "issueId": 302,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/302"
+}
