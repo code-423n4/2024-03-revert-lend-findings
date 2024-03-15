@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "FastChecker",
+  "risk": "2",
+  "title": "The user may not be able to liquidate all `debt` of `token` with `isShare = false`.",
+  "issueId": 404,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/404"
+}
