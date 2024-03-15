@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Bigsam",
+  "risk": "2",
+  "title": "Incorrect Assertion will lead to a Denial of service in the Borrow function",
+  "issueId": 285,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/285"
+}
