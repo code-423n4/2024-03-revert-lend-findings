@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "crypticdefense",
+  "risk": "2",
+  "title": "`V3Oracle::getValue` is susceptible to precision loss due to division before multiplication",
+  "issueId": 255,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/255"
+}
