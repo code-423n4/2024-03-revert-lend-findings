@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "deepplus",
+  "risk": "2",
+  "title": "The daily increase limit for depositing and borrowing is meaningless indeed since it is calculated as 110% of total assets.",
+  "issueId": 280,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/280"
+}
