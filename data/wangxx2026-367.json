@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "wangxx2026",
+  "risk": "2",
+  "title": "Forced limit updates can result in unexpected increases in the day's limit",
+  "issueId": 367,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/367"
+}
