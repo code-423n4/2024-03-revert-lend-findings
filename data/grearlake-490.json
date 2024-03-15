@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "grearlake",
+  "risk": "3",
+  "title": "If 2 tokens have different decimals, price returned from `_getReferencePoolPriceX96()` can be wrong",
+  "issueId": 490,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/490"
+}
