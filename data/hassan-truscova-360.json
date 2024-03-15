@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "hassan-truscova",
+  "risk": "2",
+  "title": "Lack of Slippage Protection in `_sendPositionValue` Function Interaction with Uniswap V3",
+  "issueId": 360,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/360"
+}
