@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "alphacipher",
+  "risk": "3",
+  "title": "`AutoExit::execute()` function  allows an attacker to drain the liquidity of a Uniswap v3 pool by repeatedly calling the function with the same `tokenId` and `liquidity` values",
+  "issueId": 483,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/483"
+}
