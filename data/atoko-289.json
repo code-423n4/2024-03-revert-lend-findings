@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "atoko",
+  "risk": "2",
+  "title": "Missing Nonce in Signature Verification for Permit Function",
+  "issueId": 289,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/289"
+}
