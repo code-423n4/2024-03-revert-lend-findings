@@ -27,3 +27,22 @@ function execute(ExecuteParams calldata params) external {
 ...
 ``` 
 
+
+### L-03: `Automator.setVault` should check if the vault has the same NonfungiblePositionManager with the automator
+```solidity
+function setVault(address _vault, bool _active) public onlyOwner {
+        emit VaultChanged(_vault, _active);
+        vaults[_vault] = _active;
+    }
+```
+Function `setVault` does not check if `_vault` having the same `nonfungiblePositionManager` with the contract.
+If they don't match, then incorrect operations might be applied on user positions, since function `configToken` does not differentiate which `vault` the tokenId associated with:
+```solidity
+function configToken(uint256 tokenId, address vault, PositionConfig calldata config) external {
+        _validateOwner(tokenId, vault);
+
+        // lower tick must be always below or equal to upper tick - if they are equal - range adjustment is deactivated
+        if (config.lowerTickDelta > config.upperTickDelta) {
+            revert InvalidConfig();
+        }
+```
