@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "btk",
+  "risk": "2",
+  "title": "Missing slippage check for lenders",
+  "issueId": 374,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/374"
+}
