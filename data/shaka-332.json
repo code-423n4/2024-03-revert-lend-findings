@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "shaka",
+  "risk": "2",
+  "title": "`V3Vault` does not implement correctly `maxDeposit` and `maxMint`",
+  "issueId": 332,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/332"
+}
