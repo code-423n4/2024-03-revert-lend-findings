@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "web3Tycoon",
+  "risk": "3",
+  "title": "Funds may get locked in `V3Utils` when `instructions.targetcontract` is not valid",
+  "issueId": 376,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/376"
+}
