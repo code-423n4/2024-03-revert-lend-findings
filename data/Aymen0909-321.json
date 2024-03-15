@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Aymen0909",
+  "risk": "2",
+  "title": "Wrong calculation of the daily lend & debt limits in `_resetDailyLendIncreaseLimit` and `_resetDailyDebtIncreaseLimit`",
+  "issueId": 321,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/321"
+}
