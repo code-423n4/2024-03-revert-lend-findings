@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Aymen0909",
+  "risk": "2",
+  "title": "`liquidate` function forgets to increase the daily debt limit `dailyDebtIncreaseLimitLeft`",
+  "issueId": 325,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/325"
+}
