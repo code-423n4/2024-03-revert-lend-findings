@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "grearlake",
+  "risk": "2",
+  "title": "Attacker can avoid being liquidated without repay full by front-running and partial repay",
+  "issueId": 440,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/440"
+}
