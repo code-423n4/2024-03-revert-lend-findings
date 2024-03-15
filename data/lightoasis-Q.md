@@ -1,4 +1,4 @@
-## 1. There are no max and min values for the reserve factor.
+## 1. There are no min and max values set for the reserve factor.
 
 The reserve factor is the percentage difference between debt and lend interest. There are currently no max and min values for the reserve factor. This could impact the borrowers and the lenders it is set too high or too low.
 [V3Vault.sol#L838](https://github.com/code-423n4/2024-03-revert-lend/blob/435b054f9ad2404173f36f0f74a5096c894b12b7/src/V3Vault.sol#L838)
