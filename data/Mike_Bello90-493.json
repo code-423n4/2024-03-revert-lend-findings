@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "Mike_Bello90",
+  "risk": "2",
+  "title": "Calling IncreaseLiquidity in AutoCompound without Slippage Protection and block.timestamp as Deadline can Cause Loss of Funds.",
+  "issueId": 493,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/493"
+}
