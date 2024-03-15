@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "cheatc0d3",
+  "risk": "2",
+  "title": "Insufficient Slippage Handling in decreaseLiquidityAndCollect Function",
+  "issueId": 458,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/458"
+}
