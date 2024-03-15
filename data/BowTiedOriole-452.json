@@ -1,0 +1,8 @@
+{
+  "contest": 342,
+  "handle": "BowTiedOriole",
+  "risk": "2",
+  "title": "Lack of Slippage Protection in `withdraw`/`redeem` Function of the Vault",
+  "issueId": 452,
+  "issueUrl": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/452"
+}
